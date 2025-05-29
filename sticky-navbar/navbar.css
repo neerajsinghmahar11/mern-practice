@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.HW{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HW a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: #262626;
+    /* backdrop-filter: blur(45px); */
+    color: white;
+    position: sticky;
+    top: 0px;
+    padding: 10px 20px;
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    /* color: white; */
+}
