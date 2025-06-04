@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todoList.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TODO LIST</h1>
+        <div class="todo">
+            <input class="todoInput"  type="text" oninput="addList()"  placeholder="Add a new todo">
+            <button class="todoBtn" disabled onclick="listTodo()" type="button">Add</button>
+        </div>
+      <ul class="todoList"></ul>
+    </div>
+    <script src="todoList.js"></script>
+  </body>
+</html>
