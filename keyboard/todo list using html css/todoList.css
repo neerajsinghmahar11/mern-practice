@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 550px;
   width: auto;
   margin: 20px auto;
   background-color: #fff;
@@ -50,13 +50,16 @@ button:disabled {
 }
 ul {
   list-style-type: none;
-  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 li {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
 }
 
@@ -64,6 +67,9 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  width: 500px;
+  margin: 0;
 }
 
 
@@ -90,15 +96,32 @@ li {
   transition: all 0.3s linear;
 }
 
-#toggle[type="checkbox"]:checked + .switchToggle:after{
+.classToggle[type="checkbox"]:checked + .switchToggle:after{
     translate: 1.5rem 0;
 }
 
-#toggle[type="checkbox"]:checked + .switchToggle{
+.classToggle[type="checkbox"]:checked + .switchToggle{
     background-color: #19efb6;
 }
 
-#toggle[type="checkbox"]{
+.classToggle[type="checkbox"]{
     display: none;
+}
+
+.div2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color:rgb(238, 234, 234) ;
+  border-radius: 2rem;
+  margin: 0px 10px;
+}
+
+.div1 span{
+  overflow-wrap: break-word;
+}
+.div2 span{
+  overflow-wrap: break-word;
 }
 
