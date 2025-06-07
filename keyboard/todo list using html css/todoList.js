@@ -29,7 +29,7 @@ const showTodo = () => {
       div1.className = "div1";
       div2.className = "div2";
 
-      span1.textContent = "completed : ";
+      span1.textContent = "Done";
       div1.appendChild(span);
       div2.append(span1, toggle, label);
       listItem.append(div1, div2);
