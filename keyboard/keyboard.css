@@ -11,6 +11,7 @@ body {
 
 .container {
     background-color: grey;
+    user-select: none; /*to prevent selecting text*/
 }
 
 .board {
@@ -39,6 +40,10 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.key:active{
+  transform: scale(0.97);
 }
 
 .key:hover {
