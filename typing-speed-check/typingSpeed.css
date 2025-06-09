@@ -65,3 +65,10 @@ body{
 .content button:active{
     transform:scale(0.97); /*to look like a pressing button */
 }   
+
+.typing-text p span{
+    position: relative;
+}
+.typing-text p span.active{
+    color: orange;
+}
